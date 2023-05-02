@@ -236,6 +236,7 @@ small{
 .footer-col-2{
     flex-basis: 30%;
     text-align:center;
+    justify-content: space-evenly;
 }
 .footer-col-2 img{
     width: 180px;
