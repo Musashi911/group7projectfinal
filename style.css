@@ -535,7 +535,7 @@ label{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 10px;
+    padding: 20px;
     color: black;
     cursor: text;
     transition: 0.2s;
@@ -558,8 +558,7 @@ textarea:valid~label{
 .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    justify-content: space-evenly;
 .row .input-group{
     flex-basis: 48%;
     
