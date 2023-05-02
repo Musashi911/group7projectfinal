@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutpage.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href ="index.html"><img src="images/logo1.png" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href ="cartpage.html"><img src = "images/cart.png" class ="menu-icon"></a>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>About Fashion Hub</h1>
+                <p>FashionHub is a vibrant and trendy fashion website that brings you the latest and greatest in fashion news, trends, and styles. Whether you're looking for inspiration for your next outfit, tips on how to accessorize your wardrobe, or insights into the hottest designers and brands, FashionHub has got you covered. Our mission is to empower you to express your unique style and feel confident in your fashion choices. With FashionHub, you can stay up-to-date on all things fashion and be part of a thriving community of fashion lovers.
+                </p>
+                <a href ="index.html" class = "btn"> Explore FashionHub &#8594; </a>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>Summer Style </h5>
+                    <p>Trendy</p>
+                </div>
+                <div class="card card2">
+                    <h5>Cold Season Style</h5>
+                    <p>Exclusive</p>
+                </div>
+                <div class="card card3">
+                    <h5>Rainy Outfits <Style></Style></h5>
+                    <p>Limited</p>
+                </div>
+                <div class="card card4">
+                    <h5>Spring Outfit</h5>
+                    <p>Exclusive</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------toggle menu js-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+
+        }
+    }
+</script>
+    
+</body>
+</html>
