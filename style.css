@@ -559,7 +559,7 @@ textarea:valid~label{
 .row{
     display: flex;
     align-items: center;
-    justify-content: evenly;
+    justify-content: space-between;
 .row .input-group{
     flex-basis: 48%;
     
